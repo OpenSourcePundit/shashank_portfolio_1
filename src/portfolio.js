@@ -1,3 +1,6 @@
+import { FaHtml5, FaNpm, FaCss3, FaReact, FaNode, FaDatabase, FaGithub } from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
+
 
 const greeting = {
     username: "Shashank Kumar",
@@ -28,50 +31,88 @@ const skillsSection = {
   
     softwareSkills: [
       {
-        skillName: "html-5",
-        fontAwesomeClassname: "fab fa-html5"
+        label: "html-5",
+        icon: FaHtml5
+      },
+      { 
+        label: "css3",
+        icon: FaCss3
       },
       {
-        skillName: "css3",
-        fontAwesomeClassname: "fab fa-css3-alt"
+        label: "JavaScript",
+        icon:SiJavascript
       },
       {
-        skillName: "JavaScript",
-        fontAwesomeClassname: "fab fa-js"
+        label: "reactjs",
+        icon: FaReact,
       },
       {
-        skillName: "reactjs",
-        fontAwesomeClassname: "fab fa-react"
+        label: "Node",
+        icon:FaNode
       },
       {
-        skillName: "nodejs",
-        fontAwesomeClassname: "fab fa-node"
+        label: "Npm",
+        icon:FaNpm
       },
       {
-        skillName: "npm",
-        fontAwesomeClassname: "fab fa-npm"
+        label: "Mongo-database",
+        icon:FaDatabase
       },
       {
-        skillName: "mongo-database",
-        fontAwesomeClassname: "fas fa-database"
+        label: "Github",
+        icon:FaGithub
       },
-      {
-        skillName: "java",
-        fontAwesomeClassname: "fab fa-java"
-      },
-      {
-        skillName: "github",
-        fontAwesomeClassname: "fab fa-github"
-      }
+     
+      
     ],
     display: true // Set false to hide this section, defaults to true
   };
 
 
+  const eductionInfo = {
+    display: true,
+    college:[
+      
+      {
+        collegeName:"ABES Engineering College, Ghaziabad",
+        logo: "https://i.ibb.co/tHqw3wR/abes.jpg",
+        subTitle:"Bachelor of Technology in Electrical Engineering",
+        duration: "July-2013 - July-2017"
+      }
+    ]
+  };
+
+  const workExperiences = {
+    display: true, //Set it to true to show workExperiences Section
+    experiences: [
+      {
+        role: "Web Development Student",
+        company: "neoG Camp",
+        companylogo: "https://i.ibb.co/T0dk7nJ/neog.png",
+        date: "Feb 2023 – Present",
+        desc: "A part of web development (MERN stack) bootcamp",
+        descBullets: [
+          "Made major projects like e-commerce, social media using ReactJS.",
+          "Learnt various technologies like HTML, CSS, JavaScript, React, NodeJS, MongoDB, ExpressJS, TypeScript and Redux."
+        ]
+      },
+    ]
+  }
+
+  const contactInfo = {
+    title: "Contact Me ☎️",
+    subtitle:
+      "Discuss a project or just want to say hi? My Inbox is open for all.",
+    number: "+91-9411252469",
+    email_address: "shashank00098@gmail.com"
+  };
 
 
 export {
     greeting,
     socialMediaLinks,
     skillsSection,
+    eductionInfo,
+    workExperiences,
+    contactInfo,
 }
