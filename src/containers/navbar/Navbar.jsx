@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import "./navbar.css";
 import { greeting } from '../../portfolio';
 import { IoMdMenu } from "react-icons/io";
-import Sidebar from '../sidebar/Sidebar';
+import Sidebar from '../../components/sidebar/Sidebar';
 import {motion} from "framer-motion";
 
 const Navbar = () => {
