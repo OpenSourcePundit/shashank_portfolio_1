@@ -29,12 +29,12 @@ const Navbar = () => {
         <li>
           <a href="#projects">Projects</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#achievements">Achievement</a>
         </li>
         <li>
           <a href="#blogs">Blogs</a>
-        </li>
+        </li> */}
         <li>
           <a href="#contact">Contact Me</a>
         </li>

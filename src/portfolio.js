@@ -6,7 +6,7 @@ const greeting = {
     username: "Shashank Kumar",
     title: "Hi all, I'm Shashank",
     subTitle:  "A web developer, learning and applying the latest technologies and best practices in web development, such as ReactJS, NodeJS, Redux.js, and Back-End Web Development. Aim to become a leader in the tech industry who can create innovative and impactful solutions for society.",
-    resumeLink:"https://github.com/"
+    resumeLink:"https://drive.google.com/file/d/1N-oKhVh2nTsdyYahseUfvLCQEQkzKoHh/view?usp=sharing"
 };
 
 const socialMediaLinks = {
@@ -99,6 +99,67 @@ const skillsSection = {
     ]
   }
 
+
+ 
+
+
+  const myProjects = {
+    title: "What i did",
+    display: true, // Set false to hide this section, defaults to true
+    projects: [
+      {
+        image: "https://i.ibb.co/QXVn8yp/osp-components.png",
+        projectName: "OSP Components",
+        projectDesc:
+          "A small app containing different components with their documentation in React JS.",
+        footerLink: [
+          {
+            name: "Visit Website",
+            url: "https://osp-components.netlify.app/"
+          },
+          {
+            name: "View Source Code",
+            url: "https://github.com/OpenSourcePundit/css_component_lib"
+          }
+        ]
+      },
+      {
+        image: "https://i.ibb.co/bPJR5q7/social-circle.png",
+        projectName: "Social-Circle",
+        projectDesc:
+          "A social media website where in, you can connect with your friends and family !",
+        footerLink: [
+          {
+            name: "Visit Website",
+            url: "https://social-circle-osp.netlify.app/"
+          },
+          {
+            name: "View Source Code",
+            url: "https://github.com/OpenSourcePundit/social-media"
+          }
+          //  you can add extra buttons here.
+        ]
+      },
+      {
+        image: " https://i.ibb.co/sH8v1Yq/bibliotec.png",
+        projectName: "Bibliotec-Pun",
+        projectDesc: "A e-commerce website for Books with great variety of Books in different genre!",
+        footerLink: [
+          {
+            name: "Visit Website",
+            url: "https://bibliotec-pun.netlify.app/"
+          },
+          {
+            name: "View Source Code",
+            url: "https://github.com/OpenSourcePundit/ecommerce-app"
+          }
+        ]
+      },
+      
+    ]
+  }
+
+
   const contactInfo = {
     title: "Contact Me ☎️",
     subtitle:
@@ -115,4 +176,5 @@ export {
     eductionInfo,
     workExperiences,
     contactInfo,
+    myProjects
 }
