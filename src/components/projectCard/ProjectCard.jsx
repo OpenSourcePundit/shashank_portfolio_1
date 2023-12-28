@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from "../button/Button";
 import "./projectCard.scss";
 
 const ProjectCard = ({project}) => {
