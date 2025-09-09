@@ -50,6 +50,7 @@
 
 .greeting-imageContainer{
     max-width: 100%;
+    width: 40%;
     height: auto;
 }
 
@@ -106,10 +107,11 @@
 
     .greeting-imageContainer{
         width: 60%;
-        height: auto;
+        height: 80%;
         margin: 0 auto;
-    }
 
+    }
+   
     .hello p{
         font-size: 44px;
     }
