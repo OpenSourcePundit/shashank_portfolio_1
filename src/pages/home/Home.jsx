@@ -19,7 +19,7 @@ const Home = () => {
         <Education/>
         <Experience/>
         <Projects/>
-        <video src="../../../assets/bg.mp4" alt="videop image"  loop autoPlay playsInline className='bg-video' ></video>
+        {/* <video src="../../../assets/bg.mp4" alt="videop image"  loop autoPlay playsInline className='bg-video' ></video> */}
 
         {/* <Blogs/> */}
         <Contact/>
