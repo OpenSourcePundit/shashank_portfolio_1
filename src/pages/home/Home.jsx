@@ -16,9 +16,9 @@ const Home = () => {
         <Navbar/>
         <Greeting/>
         <Skills/>
-        <Education/>
-        <Experience/>
         <Projects/>
+        <Experience/>
+        <Education/>        
         {/* <video src="../../../assets/bg.mp4" alt="videop image"  loop autoPlay playsInline className='bg-video' ></video> */}
 
         {/* <Blogs/> */}

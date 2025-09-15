@@ -34,8 +34,7 @@ const Greeting = () => {
               className="handSign"
               animate={{ rotate: [0, -10, 0] }}
               transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
-            >
-              <p>👋</p>
+            ><p> ✋</p>
             </motion.div>
           </div>
           <div className="myself">
