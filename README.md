@@ -74,7 +74,7 @@ src
 Clone the repository:  
 
 ```bash
-git clone https://github.com/your-username/portfolio-site.git
+git clone https://github.com/OpenSourcePundit/shashank_portfolio_1.git
 cd portfolio-site
 ```
 Install Dependencies
