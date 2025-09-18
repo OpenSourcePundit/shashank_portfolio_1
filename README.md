@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+# ⚛️ Developer Portfolio Website  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern **React.js single-page application (SPA)** portfolio website designed with scalability and maintainability in mind.  
+This project demonstrates the use of **contemporary React features** such as code splitting, lazy loading, hooks, and component-driven architecture, along with responsive design and smooth animations.  
 
-## Available Scripts
+![Portfolio Screenshot](./src/assets/projects/portfolio.png)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Key Features  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **⚡ React 18 + SPA Architecture**  
+  Built with modern React best practices using function components and hooks.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **📦 Code Splitting & React.lazy**  
+  Components are dynamically loaded to optimize performance and reduce initial bundle size.  
 
-### `npm test`
+- **🛣️ React Router DOM**  
+  Declarative routing with support for multiple pages and future scalability.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **🎨 Responsive & Modular Styling**  
+  Combination of **CSS Modules** and **SCSS** for scoped, clean, and maintainable styles.  
 
-### `npm run build`
+- **🎬 Framer Motion Animations**  
+  Smooth, declarative animations for improved user experience.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **📊 Centralized Configuration**  
+  All portfolio data (skills, education, projects, experience, etc.) is defined in `portfolio.js` and rendered dynamically.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **🔗 Social Media Integration**  
+  Modular social media component that can be extended with new platforms easily.  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **🛡️ Reusable Component Design**  
+  Clear separation between **containers (section-level)** and **UI components**, following a scalable architecture.  
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Tech Stack  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React.js (v18)**  
+- **React Router DOM** – Routing system  
+- **Framer Motion** – Animations & transitions  
+- **React Icons** – Iconography  
+- **SCSS / CSS Modules** – Styling  
+- **ESLint + Prettier Ready** – Code quality (optional)  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📂 Project Architecture  
 
-## Learn More
+```bash
+src
+├── components/ # Reusable UI components (cards, social links, etc.)
+│ ├── educationCard/
+│ ├── socialMedia/
+│ └── ...
+├── containers/ # Section-level components
+│ ├── contact/
+│ ├── education/
+│ ├── experience/
+│ ├── greeting/
+│ ├── navbar/
+│ ├── projects/
+│ └── skills/
+├── pages/ # Route-level components
+│ └── home/ # Main landing page
+├── portfolio.js # Centralized portfolio data/config
+├── App.js # App entry with routing & lazy loading
+├── index.js # React entry point
+└── styles/ # Global styles and shared SCSS
+```
+## 📦 Installation & Setup  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Clone the repository:  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/your-username/portfolio-site.git
+cd portfolio-site
+```
+Install Dependencies
 
-### Code Splitting
+```bash
+npm install
+```
+Run Locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+## 🌍 Deployment  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project can be deployed seamlessly to:  
 
-### Making a Progressive Web App
+- **Netlify**  
+- **Vercel**  
+- **GitHub Pages**  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Steps for deployment:  
 
-### Advanced Configuration
+1. Build the project:  
+   ```bash
+   npm run build
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🔮 Future Enhancements  
 
-### Deployment
+- Add a **Dark/Light Theme Toggle** using React Context API.  
+- Integrate a **Blog section** with dynamic routing.  
+- Implement a **Contact form** with serverless backend (Firebase / AWS Lambda).  
+- Add **unit & integration tests** with Jest and React Testing Library.  
+- Optimize performance and accessibility with **Lighthouse audits**.  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
