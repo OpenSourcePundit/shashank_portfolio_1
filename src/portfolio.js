@@ -89,7 +89,7 @@ const workExperiences = {
       role: "System Engineer",
       company: "RS Tech",
       companylogo: "https://i.ibb.co/MydtK0bF/rstec.jpg",
-      date: "Jan 2022 – Present",
+      date: "Aug 2022 – Present",
       desc: "SAS Programming",
       descBullets: [
 
@@ -102,7 +102,7 @@ const workExperiences = {
       role: "Web Development Student",
       company: "neoG Camp",
       companylogo: "https://i.ibb.co/T0dk7nJ/neog.png",
-      date: "Feb 2024 – April 2025",
+      date: "Jan 2023 – Dec 2023",
       desc: "web development (MERN stack) Training",
       descBullets: [
         "Made major projects like e-commerce, social media using ReactJS.",
