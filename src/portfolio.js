@@ -89,7 +89,7 @@ const workExperiences = {
       role: "System Engineer",
       company: "RS Tech",
       companylogo: "https://i.ibb.co/MydtK0bF/rstec.jpg",
-      date: "Aug 2022 – Present",
+      date: "Jan 2022 – Present",
       desc: "SAS Programming",
       descBullets: [
 
