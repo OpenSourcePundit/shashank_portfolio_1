@@ -86,10 +86,20 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experiences: [
     {
+      role: "SDE - 1",
+      company: "HARNS Technologies",
+      companylogo: "https://i.ibb.co/RpY9XCs6/Harns-Tech.jpg",
+      date: "Jan 2026 – Present",
+      desc: "Frontend Developer",
+      descBullets: [
+        "Developed enterprise applications using React.js, Next.js, and TypeScript.", "Built reusable UI components, integrated REST APIs, and optimized frontend performance.", "Leveraged Cursor AI to accelerate development, debugging, and code refactoring."
+      ]
+    },
+    {
       role: "System Engineer",
       company: "RS Tech",
       companylogo: "https://i.ibb.co/MydtK0bF/rstec.jpg",
-      date: "Jan 2022 – Present",
+      date: "Jan 2022 – Jan 2026",
       desc: "SAS Programming",
       descBullets: [
 
@@ -151,7 +161,7 @@ const myProjects = {
         }
         //  you can add extra buttons here.
       ]
-    }, 
+    },
     {
       image: "https://i.ibb.co/5XvT8xyT/weather-app.jpg",
       projectName: "Weather-App",
